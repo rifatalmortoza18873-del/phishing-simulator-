@@ -1,3 +1,8 @@
+# CyberShield Project: Work Breakdown Structure (WBS)
+
+This WBS defines our project roadmap and task ownership. As **Deputy Team Leader**, I am responsible for Phase 1 (Governance) and Phase 5 (Quality Control).
+
+```mermaid
 graph LR
     %% Main Project
     Project[<b>CyberShield Project</b>] --- P1(Phase 1: Governance)
@@ -31,7 +36,7 @@ graph LR
     P5 --> P5_2[Final Demo Video <br/><i>Owner: Team</i>]
     P5 --> P5_3[<b>Submission May 15th</b>]
 
-    %% Styling for better look
+    %% Styling
     style P1 fill:#e67e22,stroke:#333,color:#fff
     style P2 fill:#f1c40f,stroke:#333
     style P3 fill:#9b59b6,stroke:#333,color:#fff
