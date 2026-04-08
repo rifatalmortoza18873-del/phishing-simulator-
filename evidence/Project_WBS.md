@@ -1,11 +1,4 @@
-# CyberShield Phishing Simulator: Work Breakdown Structure
-
-As the **Deputy Team Leader**, I have developed this WBS to define our project scope, assign ownership, and ensure we meet our final deadline of **May 15th, 2026**.
-
-## 1. Visual Roadmap (Mermaid Logic)
-
-```mermaid
-graph TD
+graph LR
     %% Main Project
     Project[<b>CyberShield Project</b>] --- P1(Phase 1: Governance)
     Project --- P2(Phase 2: Backend)
@@ -38,10 +31,10 @@ graph TD
     P5 --> P5_2[Final Demo Video <br/><i>Owner: Team</i>]
     P5 --> P5_3[<b>Submission May 15th</b>]
 
-    %% Styling
-    style P1 fill:#e67e22,stroke:#333,stroke-width:2px
-    style P2 fill:#f1c40f,stroke:#333,stroke-width:2px
-    style P3 fill:#9b59b6,stroke:#333,stroke-width:2px
-    style P4 fill:#2ecc71,stroke:#333,stroke-width:2px
-    style P5 fill:#e74c3c,stroke:#333,stroke-width:2px
+    %% Styling for better look
+    style P1 fill:#e67e22,stroke:#333,color:#fff
+    style P2 fill:#f1c40f,stroke:#333
+    style P3 fill:#9b59b6,stroke:#333,color:#fff
+    style P4 fill:#2ecc71,stroke:#333
+    style P5 fill:#e74c3c,stroke:#333,color:#fff
     style Project fill:#2c3e50,color:#fff,stroke-width:4px
