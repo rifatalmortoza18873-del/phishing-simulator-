@@ -1,6 +1,4 @@
-graph TD
-    %% This 'Bridge' creates the horizontal shoulder line
-    Project[<b>Project: CyberShield Simulator</b>] --- Bridge(( ))
+
     
     %% Horizontal Branching
     Bridge --- P1(<b>Initiation</b><br/>Phase 1)
