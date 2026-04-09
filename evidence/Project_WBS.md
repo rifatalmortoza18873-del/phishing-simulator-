@@ -1,5 +1,5 @@
 graph TD
-    %% This 'Bridge' creates the horizontal shoulder line from your picture
+    %% This 'Bridge' creates the horizontal shoulder line
     Project[<b>Project: CyberShield Simulator</b>] --- Bridge(( ))
     
     %% Horizontal Branching
@@ -39,7 +39,7 @@ graph TD
     P5 --- P5_3[Product Delivery<br/><i>Team</i>]
     P5 --- P5_4[<b>Submission May 15</b>]
 
-    %% Styling to match your image exactly
+    %% Styling to match your slide exactly
     style P1 fill:#e67e22,stroke:#333,color:#fff
     style P2 fill:#f1c40f,stroke:#333
     style P3 fill:#FF69B4,stroke:#333,color:#fff
