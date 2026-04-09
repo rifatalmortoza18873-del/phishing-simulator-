@@ -1,7 +1,7 @@
-graph TD
-    %% Main Project Header
-    Project[<b>Project: CyberShield Simulator</b>] --- Bridge(( ))
-    
+graph LR
+    P[<b>CyberShield</b>]
+
+
     %% Horizontal Branching Line (The Shoulder)
     Bridge --- P1(<b>Initiation</b><br/>Phase 1)
     Bridge --- P2(<b>Planning</b><br/>Phase 2)
